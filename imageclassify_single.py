@@ -4,8 +4,8 @@ from PIL import Image
 import json
 
 # Paths
-MODEL_PATH = r"C:\Users\v7dav\ai-env\models\Computer_Vision\mobilenet_v3_large_float.onnx\job_jp4v2owlp_optimized_onnx\model.onnx"
-LABELS_PATH = r"C:\Users\v7dav\ai-env\models\Computer_Vision\imagenet_labels.json"	 # 1k labels, one per line
+MODEL_PATH = r"C:\<path to model.onnx"
+LABELS_PATH = r"C:\<path to imagenet_labels.json>"	 # 1k labels, one per line
 IMG_PATH = input("Enter image file path: ")
 
 def load_labels(path):
